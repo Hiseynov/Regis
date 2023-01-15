@@ -140,4 +140,44 @@
   .footer__containers--icon {
     font-size: 5vw;
   }
+}
+@media screen and (max-width: 767px) {
+  .header__container {
+    display: none;
+  }
+  .header__container--mobile {
+    display: flex;
+    margin-bottom: 10% !important;
+    margin-top: 3% !important;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header__container--mobile--name {
+    font-size: 6vw;
+  }
+  .header__container--mobile--category i {
+    font-size: 5vw;
+  }
+  .main__container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+  }
+  .main__container--right {
+    margin-top: 10%;
+  }
+  .footer__container {
+    padding-top: 15% !important;
+    margin-bottom: 15% !important;
+    width: 45%;
+    margin: 0 auto;
+  }
+  .footer__container--categories {
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer__containers--icon {
+    font-size: 5vw;
+  }
 }/*# sourceMappingURL=Regis.css.map */
